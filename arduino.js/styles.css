@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  display: flex;
+  background-color: black;
+  background-image: url('https://media.giphy.com/media/RJSrDl3tgfKUmSfybz/giphy.gif');
+  background-size: cover;
+}
+
+
+.btn{
+  background-color: transparent;
+  color: white;
+  padding: 14px 28px;
+  font-size: 25px;
+  font-family: "Press Start 2P", cursive;
+  cursor: pointer;
+  margin: auto;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.btn2{
+  background-color: transparent;
+  color: white;
+  padding: 14px 28px;
+  font-size: 25px;
+  font-family: "Press Start 2P", cursive;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.wrapper{
+margin-right: auto; /* 1 */
+margin-left:  auto; /* 1 */
+
+padding-right: 10px; /* 3 */
+padding-left:  10px; /* 3 */
+z-index: -1;
+
+}
+
+.image_wrapper{
+  margin-right: auto; /* 1 */
+  margin-left:  auto; /* 1 */
+  /* padding-right: 300px; /* 3 */
+  /*padding-left:  120px;  3 */
+  padding-top: 280px;
+  z-index : 1;
+  width: 500px;
+  height:400px;
+
+}
+
+.text_container {
+
+
+  padding-top : 20px;
+  text-align: center;
+  margin-right: auto; /* 1 */
+  margin-left:  auto; /* 1 */
+  margin-top: auto;
+}
+
+
+#webcam{
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+  /* This centers our sketch vertically. */
+  align-items: center;
+}
+
+
+#head {
+  font-family: "Press Start 2P", cursive;
+  margin-top : 20px;
+
+  display: flex;
+  justify-content: center;
+
+  top: 60px;
+  color: white;
+  font-size: 20px;
+  text-align: center;s
+}
+
+
+#status{
+  font-family: "Press Start 2P", cursive;
+  margin: 0 auto;
+  /* display: flex;
+  justify-content: center;
+  align-items: top;
+  position: relative; */
+  top: 100px;
+  color: white;
+  font-size: 12px;
+}
+
+
+
+
+/* .sign_group button{
+    display: inline-block;
+} */
+.signButtons {
+  /* background-color : transparent; */
+  background-size: 100px, 100px;
+  width : 90px;
+  height : 90px;
+  position:absolute;
+  align-items: bottom;
+  border-radius: 10px;
+  border-color: white;
+  border-style: none;
+  bottom : 10px;
+  text-align: center;
+  color : black;
+  margin:20px auto;
+  font-size: 15px;
+  font-family: "Press Start 2P", cursive;
+  z-index : 2;
+  /* opacity : 0.5; */
+}
+
+#sign1{
+
+  background-image : url('simpson/marge.png');
+  background-color : rgb(249, 129, 42);
+  left:360px;
+
+  /* border-color: white;
+  border-style : solid;
+  border-width:3px; */
+}
+
+/* input #sign1:hover {
+  opacity: 0.3;
+} */
+
+#sign2{
+  background-image : url('simpson/homer.png');
+  background-color : #FFFC00;
+  right:600px;
+
+}
+/* input #sign2:hover {
+  opacity: 0.5;
+} */
+
+#sign3{
+  background-image : url('simpson/lisa.png');
+  background-color : #DAABF7;
+    right:360px;
+
+}
+
+
+#sign_drawing {
+ opacity : 0.5;
+ z-index:1;
+ visibility : hidden;
+}
+
+
+/* .container{
+    margin-right: auto;
+    margin-left:  auto;
+    width: 100%;
+    text-align: center;
+    align-items: bottom;
+    position: relative;
+}
+.container button{
+    display: inline-block;
+} */
+
+/* .sign_group {
+  /* background-color : transparent;
+  position:absolute;
+  align-items: bottom;
+  border-radius: 10px;
+  bottom : 50px;
+  position: relative;
+  text-align: center;
+  color: white;
+} */
